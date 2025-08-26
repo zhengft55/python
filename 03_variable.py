@@ -120,11 +120,13 @@ print("\n" + "="*50 + "\n")
 # 全局变量
 global_var = "我是全局变量"
 
+
 def demo_function():
     # 局部变量
     local_var = "我是局部变量"
     print(f"函数内部 - 全局变量: {global_var}")
     print(f"函数内部 - 局部变量: {local_var}")
+
 
 demo_function()
 print(f"函数外部 - 全局变量: {global_var}")
